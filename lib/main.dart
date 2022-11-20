@@ -109,7 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     final bytes = allBytes.done().buffer.asUint8List();
 
-    final Size imageSize = Size(img.width.toDouble(), img!.height.toDouble());
+    final Size imageSize = Size(img.width.toDouble(), img.height.toDouble());
 
     final camera = _cameras[0];
 
@@ -152,7 +152,7 @@ class _MyHomePageState extends State<MyHomePage> {
       _labels = newLabels;
     });
 
-    // set [isProcessingImage] to false, 
+    // set [isProcessingImage] to false,
     // releasing to next frame be processed
     isProcessingImage = false;
   }
